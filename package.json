@@ -1,0 +1,24 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiger-sea/pages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiger-sea/pages/issues"
+  },
+  "homepage": "https://github.com/tiger-sea/pages#readme",
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-jade-tasks": "^0.0.0"
+  }
+}
