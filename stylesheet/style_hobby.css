@@ -1,0 +1,73 @@
+html {
+    background-color: teal;
+    color: bisque;
+}
+
+.title {
+    color: greenyellow;
+    text-align: center;
+}
+
+a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: teal;
+    background-color: bisque;
+    padding: 4px;
+    border-radius: 5px 5px 5px 5px;
+    transition: .4s
+}
+
+.vertical-middle {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hang-out {
+    color: aquamarine;
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    margin-top: 10px;
+}
+
+.home-botton {
+    color: rgb(31, 50, 4);
+    background-color: aquamarine;
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.selection {
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    border: solid 1px white; /* for debug*/
+    font-size: 25px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.selection-link {
+    margin-right: 15px;
+}
+
+.sentence-box {
+    display: block;
+    margin: 0 auto;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+    width: 75%;
+}
+
+.sentence {
+    text-align: center;
+}
+
+.photo {
+    padding: 10px;
+}
