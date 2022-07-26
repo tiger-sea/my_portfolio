@@ -9,14 +9,24 @@ html {
 a {
     color: greenyellow;
     text-decoration: none;
-
-}
-
-p {
-    text-align: center;
-    
 }
 
 .vertical-middle {
     vertical-align: middle;
+    text-align: center;
+}
+
+.hang-out {
+    color: aquamarine;
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    margin-top: 10px;
+}
+
+.home-botton {
+    color: rgb(31, 50, 4);
+    background-color: aquamarine;
+    padding: 5px;
 }

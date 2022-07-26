@@ -1,6 +1,11 @@
 html {
     background-color: teal;
 }
+
+.container {
+    margin-top: 20%;
+}
+
 .title {
     color: greenyellow;
     text-align: center;
@@ -9,12 +14,10 @@ html {
 a {
     color: greenyellow;
     text-decoration: none;
-
 }
 
 p {
     text-align: center;
-    
 }
 
 .vertical-middle {
