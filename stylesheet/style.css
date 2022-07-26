@@ -1,0 +1,22 @@
+html {
+    background-color: teal;
+}
+.title {
+    color: greenyellow;
+    text-align: center;
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+
+}
+
+p {
+    text-align: center;
+    
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
