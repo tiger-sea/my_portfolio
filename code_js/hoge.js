@@ -44,3 +44,5 @@ switch(h) {
   default:
     document.getElementById("date").innerHTML = "Something wrong is happend (Did you enter it following the format?)";
 }
+
+document.getElementById("full-birthday").innerHTML = String(full);
