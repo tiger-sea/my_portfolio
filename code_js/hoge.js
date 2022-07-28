@@ -1,5 +1,10 @@
 // https://ja.wikipedia.org/wiki/%E3%83%84%E3%82%A7%E3%83%A9%E3%83%BC%E3%81%AE%E5%85%AC%E5%BC%8F
-let full = prompt("Enter your birthday(e.g. 2022/2/20  *half size only)");
+
+let date = new Date();
+let y = date.getFullYear();
+let m = date.getMonth() + 1;
+let d = date.getDate();
+let full = prompt(`Enter your birthday(e.g. ${y}/${m}/${d}  *half size only)`);
 let components = full.split("/");
 let h = 0;
 
