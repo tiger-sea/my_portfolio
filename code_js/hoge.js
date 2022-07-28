@@ -24,7 +24,7 @@ if(year <= 2) {
 
 h = (day + Math.floor((26 * (month + 1)) / 10) + Y + Math.floor(Y / 4) + (-2 * C) + Math.floor(C / 4)) % 7;
 
-switch(h) {
+switch(h) { // リスト化してそれを使えばいいのかな、迷う
   case 1:
     document.getElementById("date").innerHTML = "日曜日(Sunday)";
     break;
