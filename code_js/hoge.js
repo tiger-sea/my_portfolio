@@ -47,7 +47,7 @@ switch(h) { // リスト化してそれを使えばいいのかな、迷う
     document.getElementById("date").innerHTML = "土曜日(Saturday)";
     break;
   default:
-    document.getElementById("date").innerHTML = "Something wrong is happend (Did you enter it following the format?)";
+    document.getElementById("date").innerHTML = "Something wrong is happened (Did you enter it following the format?)";
 }
 
 document.getElementById("full-birthday").innerHTML = String(full);
