@@ -5,6 +5,8 @@
         <title>Terminal</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='../stylesheet/style_birthday.css'>
+        <script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     </head>
 
     <body>
@@ -15,7 +17,24 @@
         <main>
             <div class="birth-box">
                 <p class="birth"><span id="full-birthday"></span>は</p>
-                <p class="birth"><span id="date"></span></p>
+                <p class="birth"><strong><span id="date"></span></strong></p>
+            </div>
+
+            <div class="explanation-box">
+                <p class="explanation">
+                    これはツェラーの公式と呼ばれる数式を用いて求めた結果です。<br>
+                    それはサマーウォーズの作中で登場し、小磯健二くんが夏希先輩の生年月日を聞くや否や、解を暗算するということで有名です。<br>
+                    y年m月d日の曜日hを求めるには次の式が用いられます:
+                    $$ h = \{d + \lfloor~\frac{26(m+1)}{10}~\rfloor + Y + \lfloor\frac{Y}{4}\rfloor + \Gamma\} ~ mod~7 $$
+                    \(\Gamma\)は西暦の表し方によって異なる項になり、具体的にはグレゴリオ暦かユリウス暦の場合があります。
+                    $$ \Gamma = \left\{ \begin{array}{l} -2C + \lfloor\frac{C}{4}\rfloor & :Gregorian \\ -C + 5 & :Julian \end{array} \right. $$
+                    ただし
+                    $$ C = \lfloor\frac{y}{100}\rfloor $$
+                    $$ Y = y~mod~100 $$
+                    Reference: <a href="https://en.wikipedia.org/wiki/Zeller%27s_congruence">Wikipedia</a><br>
+                    なんかかっこいいですね。(Tex書くの楽しい)<br>
+                    剰余演算で最終的に求めた 0 ~ 6 の値が各曜日に対応しており、求められるのです。
+                </p>
             </div>
         </main>
         <script type="text/javascript" src='../code_js/foo.js'></script>

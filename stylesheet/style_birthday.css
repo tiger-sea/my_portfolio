@@ -72,3 +72,20 @@ a:hover {
 .birth {
     text-align: center;
 }
+
+strong {
+    color:springgreen;
+}
+
+.explanation-box {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+    width: 75%;
+}
+
+.explanation {
+    text-align: center;
+}
