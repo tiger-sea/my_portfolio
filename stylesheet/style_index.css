@@ -16,6 +16,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: teal;
+    background-color: bisque;
+    padding: 4px;
+    border-radius: 5px 5px 5px 5px;
+    transition: .4s
+}
+
 p {
     text-align: center;
 }
