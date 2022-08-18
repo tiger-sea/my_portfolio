@@ -10,6 +10,7 @@ html {
 a {
     color: yellowgreen;
     text-decoration: none;
+    transition: .4s;
 }
 
 a:hover {
@@ -17,7 +18,7 @@ a:hover {
     background-color: bisque;
     padding: 4px;
     border-radius: 5px 5px 5px 5px;
-    transition: .4s
+    transition: .4s;
 }
 
 .vertical-middle {
@@ -80,5 +81,16 @@ a:hover {
 }
 
 .intro {
+    text-align: center;
+}
+
+.debug-box {
+    display: block;
+    margin: 10px auto;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.debug {
     text-align: center;
 }

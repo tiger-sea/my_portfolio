@@ -14,6 +14,7 @@ html {
 a {
     color: greenyellow;
     text-decoration: none;
+    transition: .4s;
 }
 
 a:hover {
@@ -21,7 +22,7 @@ a:hover {
     background-color: bisque;
     padding: 4px;
     border-radius: 5px 5px 5px 5px;
-    transition: .4s
+    transition: .4s;
 }
 
 p {
