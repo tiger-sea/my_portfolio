@@ -62,7 +62,7 @@ a:hover {
     margin: 0 auto;
     border: solid 1px white;
     border-radius: 5px 5px 5px 5px;
-    width: 75%;
+    width: 80%;
 }
 
 .sentence {
@@ -75,7 +75,7 @@ a:hover {
     margin-top: 10px;
     border: solid 1px white;
     border-radius: 5px 5px 5px 5px;
-    width: 75%;
+    width: 80%;
 }
 
 .intro {
