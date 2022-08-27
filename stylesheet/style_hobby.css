@@ -62,10 +62,22 @@ a:hover {
     margin: 0 auto;
     border: solid 1px white;
     border-radius: 5px 5px 5px 5px;
-    width: 75%;
+    width: 80%;
 }
 
 .sentence {
+    text-align: center;
+}
+
+.recently-box {
+    display: block;
+    margin: 10px auto;
+    border: solid 1px white;
+    border-radius: 5px 5px 5px 5px;
+    width: 80%;
+}
+
+.recently {
     text-align: center;
 }
 
