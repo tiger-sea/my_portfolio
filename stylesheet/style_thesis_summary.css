@@ -68,16 +68,3 @@ a:hover {
 .sentence {
     text-align: center;
 }
-
-.work-box {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    border: solid 1px white;
-    border-radius: 5px 5px 5px 5px;
-    width: 80%;
-}
-
-.work {
-    text-align: center;
-}
