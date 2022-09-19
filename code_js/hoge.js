@@ -1,10 +1,15 @@
 // https://ja.wikipedia.org/wiki/%E3%83%84%E3%82%A7%E3%83%A9%E3%83%BC%E3%81%AE%E5%85%AC%E5%BC%8F
+// http://www.ele.kochi-tech.ac.jp/tacibana/etc/program/zeller.pdf
 
 let date = new Date();
 let y = date.getFullYear();
 let m = date.getMonth() + 1;
 let d = date.getDate();
 let full = prompt(`Enter your birthday(e.g. ${y}/${m}/${d}  *half size only)`);
+while(full.indexOf('<') != -1 || full.indexOf('>') != -1) {
+  alert("Did you try injection attack?");
+  full = prompt(`Enter your birthday(e.g. ${y}/${m}/${d}  *half size only)`);
+}
 let components = full.split("/");
 console.log(components);
 

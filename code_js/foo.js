@@ -8,11 +8,16 @@ const keyName = 'visited';
 if (sessionStorage.getItem(keyName) == null) {
   //ここに初回アクセス時の処理
   user_name = prompt("Enter Your Name");
-  n = user_name.length;
-  if(n > 12) {
-    alert("input less than 12 characters");
+  while(user_name.indexOf('<') != -1 || user_name.indexOf('>') != -1) {
+    alert("Did you try injection attack?");
+    // user_name = prompt("Enter Your Name, idiot");
     user_name = prompt("Enter Your Name");
   }
+  // n = user_name.length;
+  // if(n > 12) {
+  //   alert("input less than 12 characters");
+  //   user_name = prompt("Enter Your Name");
+  // }
 
   //sessionStorageにキーと値を追加
   sessionStorage.setItem(keyName, user_name);
